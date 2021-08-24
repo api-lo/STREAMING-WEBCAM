@@ -1,0 +1,45 @@
+.circulo{
+    border-radius: 200px;
+}
+#remote-video{
+    top: 10vh;
+    height: 800px;
+    width: 1000px;
+    left: 25%;
+    background-color: lightgray;
+    position: fixed;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+#local-video{
+    top: 65vh;
+    width: 250px;
+    object-fit: cover;
+    height: 250px;
+    z-index: 1;
+    right: 450px;
+    background-color: #444444;
+    position: absolute;
+    border: 1px solid #444444;
+    border-radius: 10px;
+}
+#local-video2{
+    top: 45vh;
+    width: 250px;
+    object-fit: cover;
+    height: 250px;
+    z-index: 1;
+    right: 450px;
+    background-color: #444444;
+    position: absolute;
+    border: 1px solid #444444;
+    border-radius: 10px;
+}
+.meet-controls-bar{
+    display: block;
+    left: 40%;
+    top: 90vh;        
+    position: absolute;
+    width: 520px;
+    height: 100px;
+}
